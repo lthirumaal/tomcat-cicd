@@ -50,11 +50,11 @@ yum install -y vim 2> /dev/null
 echo '
 server {
   listen 80;
-  server_name jenkins.saqlainmushtaq.com;
+  server_name jenkins.thiru1.ga;
   return 301 https://$host$request_uri;
 }
 server {
-  server_name jenkins.saqlainmushtaq.com;
+  server_name jenkins.thiru1.ga;
   listen 443 ssl;
   ssl_certificate /etc/ssl/certs/nginx-selfsigned.crt;
   ssl_certificate_key /etc/ssl/certs/nginx-selfsigned.key;
